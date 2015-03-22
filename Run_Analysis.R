@@ -1,3 +1,4 @@
+setwd("C:/Users/Administrator/Desktop/Coursera")
 if(!file.exists("./Project - Cleaning Data")){dir.create("./Project - Cleaning Data")}
 fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileurl,destfile="./Project - Cleaning Data/Dataset.zip")
